@@ -23,7 +23,7 @@ echo "$NOW_DATETIME > $JAR_FILE 파일 복사" >> $DEPLOY_LOG
 
 cd $PROJECT_FULL_PATH
 
-cp $PROJECT_FULL_PATH/kdshop/target/*.jar $JAR_FILE
+cp $PROJECT_FULL_PATH/kdbookstore/target/*.jar $JAR_FILE
 #sudo cp /home/ec2-user/app1/step1/ezenshop/target/ezenshop-1.0.0.jar.jar ezenshop-1.0.0.jar
 
 cd $PROJECT_FULL_PATH
